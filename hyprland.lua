@@ -42,3 +42,4 @@ end
 
 -- Shell overrides --
 require("hyprland.shellOverrides.main")
+pcall(require, "/home/hjtdev/.config/hypr/openwhispr-binds.lua")
